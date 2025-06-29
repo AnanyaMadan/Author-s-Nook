@@ -50,7 +50,7 @@ function getDocStats(fileContent) {
             wordDictionary[wordValue] = 1;
         }
     }
-y
+
     let wordList = sortProperties(wordDictionary);
 
     var top5Words = wordList.slice(0, 6);
